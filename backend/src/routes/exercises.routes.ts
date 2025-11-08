@@ -31,7 +31,8 @@ router.post('/generate', authMiddleware, async (req: AuthRequest, res, next) => 
       });
     }
 
-    if (!Object.values(Difficulty).includes(difficulty)) {
+    const validDifficulties: Difficulty[] = ['easy', 'medium', 'hard', 'expert'];
+    if (!validDifficulties.includes(difficulty)) {
       return res.status(400).json({
         success: false,
         error: {
