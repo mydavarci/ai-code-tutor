@@ -216,6 +216,31 @@ The platform uses OpenAI's GPT models to:
 - [ ] Community-contributed exercises
 - [ ] Mobile app
 
+## 🚢 Deployment
+
+### Deploy to Railway (Recommended)
+
+The easiest way to deploy AI Code Tutor is using Railway:
+
+**Quick Start (5 minutes)**:
+1. Push your code to GitHub
+2. Go to https://railway.app and create a new project
+3. Deploy from your GitHub repo
+4. Add PostgreSQL and Redis databases
+5. Configure environment variables
+6. Done! ✨
+
+📖 **Detailed Guide**: See [RAILWAY_QUICK_START.md](./RAILWAY_QUICK_START.md) for step-by-step instructions
+
+📖 **Full Documentation**: See [DEPLOYMENT.md](./DEPLOYMENT.md) for comprehensive deployment guide
+
+### Other Platforms
+
+The platform can also be deployed to:
+- **Vercel** (frontend) + **Render** (backend)
+- **Netlify** (frontend) + **Railway** (backend)
+- **AWS**, **GCP**, or **Azure** (advanced)
+
 ## 🤝 Contributing
 
 Contributions are welcome! Please see [CONTRIBUTING.md](./CONTRIBUTING.md) for guidelines.

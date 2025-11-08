@@ -1,8 +1,11 @@
 import axios, { AxiosError } from 'axios';
 import type { ApiResponse } from '@ai-code-tutor/shared';
 
+// Use environment variable for API URL in production, fallback to /api for dev
+const apiBaseURL = import.meta.env.VITE_API_URL || '/api';
+
 const api = axios.create({
-  baseURL: '/api',
+  baseURL: apiBaseURL,
   headers: {
     'Content-Type': 'application/json',
   },
