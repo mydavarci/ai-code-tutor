@@ -5,7 +5,6 @@ import type {
   Category,
   Difficulty,
   ApiResponse,
-  GenerateExerciseResponse,
   SubmitCodeResponse,
 } from '@ai-code-tutor/shared';
 

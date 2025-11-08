@@ -3,12 +3,7 @@ export enum Category {
   REACT = 'react',
 }
 
-export enum Difficulty {
-  EASY = 'easy',
-  MEDIUM = 'medium',
-  HARD = 'hard',
-  EXPERT = 'expert',
-}
+export type Difficulty = 'easy' | 'medium' | 'hard' | 'expert';
 
 export interface Topic {
   id: string;
