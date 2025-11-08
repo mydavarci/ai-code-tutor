@@ -218,28 +218,39 @@ The platform uses OpenAI's GPT models to:
 
 ## 🚢 Deployment
 
-### Deploy to Railway (Recommended)
+### 🆓 FREE Option: Render + Vercel ($0/month)
 
-The easiest way to deploy AI Code Tutor is using Railway:
+Deploy completely **FREE** with:
+- **Render** (Backend + PostgreSQL) - Free tier
+- **Upstash** (Redis) - Free tier
+- **Vercel** (Frontend) - Free tier
 
-**Quick Start (5 minutes)**:
-1. Push your code to GitHub
-2. Go to https://railway.app and create a new project
-3. Deploy from your GitHub repo
-4. Add PostgreSQL and Redis databases
-5. Configure environment variables
-6. Done! ✨
+⚠️ **Note**: Free tier "sleeps" after 15 mins of inactivity (30-60s wake-up time on first request)
 
-📖 **Detailed Guide**: See [RAILWAY_QUICK_START.md](./RAILWAY_QUICK_START.md) for step-by-step instructions
+📖 **Follow**: [FREE_DEPLOYMENT.md](./FREE_DEPLOYMENT.md) - Step-by-step free deployment (15 min)
 
-📖 **Full Documentation**: See [DEPLOYMENT.md](./DEPLOYMENT.md) for comprehensive deployment guide
+---
 
-### Other Platforms
+### ⚡ PAID Option: Railway ($5-25/month)
 
-The platform can also be deployed to:
-- **Vercel** (frontend) + **Render** (backend)
-- **Netlify** (frontend) + **Railway** (backend)
-- **AWS**, **GCP**, or **Azure** (advanced)
+Deploy with Railway for always-on service:
+- All-in-one platform (Backend + DB + Redis + Frontend)
+- No sleep, instant response
+- 5-minute setup
+
+📖 **Follow**: [RAILWAY_QUICK_START.md](./RAILWAY_QUICK_START.md) - Quick Railway deployment (5 min)
+
+---
+
+### 📋 Compare All Options
+
+Not sure which to choose? See [DEPLOYMENT_OPTIONS.md](./DEPLOYMENT_OPTIONS.md) for comparison:
+- Free vs Paid
+- Setup complexity
+- Performance trade-offs
+- Cost breakdown
+
+📖 **Detailed Guide**: [DEPLOYMENT.md](./DEPLOYMENT.md) - Comprehensive deployment documentation
 
 ## 🤝 Contributing
 
